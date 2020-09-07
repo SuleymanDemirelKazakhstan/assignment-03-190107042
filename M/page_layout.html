@@ -2,6 +2,37 @@
 <head>
 <style>
 /* Write your code here */
+body{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.left_part{
+  background-color: maroon;
+  color: white;
+  width: 50%;
+  position: relative;
+}
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+.right_part{
+  width: 50%;
+}
+h3{
+  text-align: center;
+  font-size: 1.5em;
+}
+
 </style>
 </head>
 <body>
@@ -10,7 +41,7 @@
 </aside>
 <section class="right_part">
   <h3>Syllabus</h3>
-  <div class="">
+  <div class="list">
     <ul>
       <li><a href="#">Week #1</a> Introduction to HTML</li>
       <li><a href="#">Week #2</a> CSS Basics</li>
